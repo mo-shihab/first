@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+
+    <nav>
+        <span class="nav-name">Mohammad</span>
+        <ul class="nav-links"> 
+            <li><a href="#about">#about</a></li>
+            <li><a href="#contact">#contact</a></li>
+            <li><a href="#projects">#projects</a></li>
+        </ul>
+    </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-photo">MO</div>
+    <p class="hero-greeting">Hello, I'm</p>
+    <h1 class="hero-name">Mohammad</h1>
+    <p class="hero-role">Network Engineer</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-dark">View my work</a>
+      <a href="#contact"  class="btn btn-outline">Contact me</a>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <p class="section-label">About me</p>
+    <h2 class="section-title">Who am I</h2>
+    <p class="about-text">
+      Hi! I'm a network engineering student based in Jordan. I'm passionate about building and securing network infrastructure. I enjoy learning how systems communicate and love solving real-world connectivity challenges.
+      Cisco Networking · Linux · TCP/IP · Cybersecurity · Problem Solving 
+    </p>
+    <div class="tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CCNA</span>
+      <span class="tag">Python</span>
+      <span class="tag">Troubleshooting</span>
+      <span class="tag">IP Services</span>
+      <span class="tag">Problem Solving</span>
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <p class="section-label">My work</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+
+    <div class="projects-list">
+
+      <div class="card">
+        <div class="card-image green"></div>
+        <div class="card-body">
+          <h3 class="card-title">VLANs</h3>
+          <p class="card-desc">Configured firewall rules and monitored traffic using Wireshark and pfSense</p>
+          <a href="#" class="card-link">View project →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image peach"></div>
+        <div class="card-body">
+          <h3 class="card-title">Course website</h3>
+          <p class="card-desc">A website for uploading courses</p>
+          <a href="#" class="card-link">View project →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image purple"></div>
+        <div class="card-body">
+          <h3 class="card-title">Course website</h3>
+          <p class="card-desc">A website for uploading courses</p>
+          <a href="#" class="card-link">View project →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-label">Get in touch</p>
+    <h2 class="section-title">Contact me</h2>
+    <p class="contact-desc">Have a project or just want to say hi? Fill in the form below.</p>
+
+    <form class="form" onsubmit="return false;">
+      <input   type="text"  placeholder="Your name" />
+      <input   type="email" placeholder="Your email" />
+      <textarea             placeholder="Your message..."></textarea>
+      <button  type="submit" class="submit">Send message</button>
+    </form>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Mohammad — Made with HTML &amp; CSS</p>
+  </footer>
+
+  <!-- Night mode button -->
+  <button id="theme-toggle">🌙 Night Mode</button>
+
+  <!-- ✅ THIS WAS MISSING — links your JS file -->
+  <script src="first.js"></script>
+
+</body>
+</html>
